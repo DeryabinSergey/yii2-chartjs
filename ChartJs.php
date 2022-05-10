@@ -4,7 +4,7 @@ namespace phpnt\chartJS;
 
 use yii\helpers\Json;
 
-class ChartJs extends yii\bootstrap4\Widget
+class ChartJs extends \yii\bootstrap4\Widget
 {
     const TYPE_LINE             = 'line';
     const TYPE_BAR              = 'bar';
