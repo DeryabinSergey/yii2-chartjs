@@ -1,5 +1,5 @@
 {
-    "name": "phpnt/yii2-chartjs",
+    "name": "deryabinsergey/yii2-chartjs",
     "description": "Yii2 chartjs",
     "keywords": ["yii2", "phpnt", "chartjs", "yii2 chartjs", "chart.js", "chart js"],
     "type": "yii2-extension",
@@ -7,7 +7,7 @@
     "minimum-stability" : "dev",
     "prefer-stable": true,
     "support": {
-        "source": "https://github.com/phpnt/yii2-chartjs"
+        "source": "https://github.com/deryabinsergey/yii2-chartjs"
     },
     "authors": [
         {
@@ -19,11 +19,22 @@
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": "*",
-        "bower-asset/Chart.js": "*"
+        "bower-asset/chart.js": "*"
     },
     "autoload": {
         "psr-4": {
             "phpnt\\chartJS\\": ""
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
         }
     }
 }

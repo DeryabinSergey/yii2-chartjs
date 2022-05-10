@@ -1,17 +1,10 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: phpNT - http://phpnt.com
- * Date: 27.04.2017
- * Time: 9:26
- */
 
 namespace phpnt\chartJS;
 
-use yii\bootstrap\Widget;
 use yii\helpers\Json;
 
-class ChartJs extends Widget
+class ChartJs extends yii\bootstrap4\Widget
 {
     const TYPE_LINE             = 'line';
     const TYPE_BAR              = 'bar';
